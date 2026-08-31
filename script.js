@@ -104,11 +104,6 @@ restartButton.addEventListener('click', () => {
   game = setInterval(draw, 100);
 });
 
-
-/* =========================
-   CRUD DOS JOGADORES
-========================= */
-
 let jogadores = JSON.parse(localStorage.getItem('jogadores')) || [];
 
 const playerName = document.getElementById('player-name');
