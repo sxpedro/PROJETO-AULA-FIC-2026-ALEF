@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Press Start 2P", cursive;
+}
+
+.game-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.game-container h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+canvas {
+    background: #000;
+    border: 4px solid #2a5298;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.score {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+#restart-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #2a5298;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#restart-button:hover {
+    background-color: #1e3c72;
+}
+
+
+/* ===== CRUD ===== */
+
+.game-container h2 {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+#player-name {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Press Start 2P", cursive;
+    font-size: 10px;
+}
+
+#save-button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #2a5298;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#players {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 10px;
+}
+
+.player {
+    margin: 8px 0;
+}
+
+.player button {
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 9px;
+}

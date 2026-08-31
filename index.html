@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Press+Start+2P&display=swap">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Snake Game</title>
+</head>
+
+<body>
+
+    <div class="game-container">
+
+        <h1>Snake Game</h1>
+
+        <canvas id="game-canvas" width="400" height="400"></canvas>
+
+        <div class="score">
+            Pontuação <span id="score">0</span>
+        </div>
+
+        <button id="restart-button">Reiniciar</button>
+
+        <h2>Jogadores</h2>
+
+        <input type="text" id="player-name" placeholder="Nome do jogador">
+
+        <button id="save-button">Salvar</button>
+
+        <div id="players"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
